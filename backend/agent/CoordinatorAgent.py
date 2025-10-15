@@ -6,6 +6,11 @@ from typing import List, Dict, Optional, Tuple
 from config import OPENAI_API_KEY, WEATHER_API_KEY, DATABASE_NAME
 import sys
 
+# Import agent classes
+from agent.WeatherAgent import WeatherAgent
+from agent.EventAgent import EventAgent
+from agent.RecommendationAgent import RecommendationAgent
+
 class CoordinatorAgent:
     """Main coordinator that orchestrates all agents."""
     

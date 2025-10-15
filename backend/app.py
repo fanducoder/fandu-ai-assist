@@ -30,6 +30,9 @@ def chat():
         # TODO: Implement your AI logic here using the coordinator
         # Example: response = coordinator.get_recommendations(location, date, event_type)
         bot_response = f"You said: {user_message}"
+        bot_response = coordinator.get_recommendations(
+            "Singapore", "2025-10-15", "indoor"
+        )
         
         return jsonify({
             'response': bot_response,
