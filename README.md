@@ -43,7 +43,7 @@ pip install -r requirements.txt
 python app.py
 ```
 
-The backend will run on `http://localhost:5000`
+The backend will run on `http://localhost:5050`
 
 ### Frontend Setup
 
@@ -62,7 +62,7 @@ npm install
 npm start
 ```
 
-The frontend will open at `http://localhost:3000`
+The frontend will open at `http://localhost:3030`
 
 ## Features
 
@@ -85,7 +85,7 @@ The frontend will open at `http://localhost:3000`
 ## Usage
 
 1. Start both the backend and frontend servers
-2. Open your browser to `http://localhost:3000`
+2. Open your browser to `http://localhost:3030`
 3. Type a message in the input field at the bottom
 4. Press Enter or click the Send button
 5. The message will be sent to the backend API

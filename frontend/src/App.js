@@ -34,7 +34,7 @@ function App() {
 
     try {
       // Call backend API
-      const response = await fetch('http://localhost:5000/api/chat', {
+      const response = await fetch('http://localhost:5050/api/chat', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -67,7 +67,7 @@ function App() {
       // Handle network error
       const errorMessage = {
         id: Date.now() + 1,
-        text: `Error: Could not connect to server. Make sure the backend is running on http://localhost:5000`,
+        text: `Error: Could not connect to server. Make sure the backend is running on http://localhost:5050`,
         sender: 'bot',
         timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
       };
@@ -87,7 +87,7 @@ function App() {
   return (
     <div className="app">
       <header className="header">
-        <h1>AI Assistant - Working Prototype</h1>
+        <h1>AI Assistant - Working Prototype (Nagesh)</h1>
       </header>
 
       <div className="chat-container">

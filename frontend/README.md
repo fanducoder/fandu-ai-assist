@@ -24,11 +24,11 @@ npm install
 npm start
 ```
 
-The application will open in your browser at `http://localhost:3000`
+The application will open in your browser at `http://localhost:3030`
 
 ## Configuration
 
-The backend API URL is configured to `http://localhost:5000`. Make sure the backend server is running before using the chat application.
+The backend API URL is configured to `http://localhost:5050`. Make sure the backend server is running before using the chat application.
 
 ## Building for Production
 
